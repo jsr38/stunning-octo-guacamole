@@ -1,0 +1,48 @@
+<Qucs Schematic 0.0.19>
+<Properties>
+  <View=0,0,1717,1165,0.563135,0,0>
+  <Grid=10,10,0>
+  <DataSet=bfp450_test_sp.dat>
+  <DataDisplay=bfp450_test_sp.sch>
+  <OpenDisplay=1>
+  <Script=bfp450_test_sp.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Smith 170 591 541 541 3 #c0c0c0 1 00 1 0 1 1 0 0 5 1.5 1 0 1 1 315 0 225 "" "" "" "">
+	<"SG" #0000ff 0 3 0 0 0>
+	  <Mkr 285.714/1.37e+08 -105 -508 3 0 0 1>
+	<"NF" #ff0000 0 3 0 0 0>
+	  <Mkr 245.714/1.4/1.37e+08 -43 -151 3 0 0 1>
+	<"GA" #ff00ff 0 3 0 0 0>
+	<"S[1,1]" #00ff00 2 3 0 6 0>
+  </Smith>
+  <Rect 900 425 577 375 3 #c0c0c0 1 00 1 0 0.2 1 1 -0.1 0.5 1.1 1 -0.1 0.5 1.1 315 0 225 "" "" "" "">
+	<"S[2,1]" #0000ff 0 3 0 0 0>
+	<"K" #ff0000 0 3 0 0 0>
+	  <Mkr 1.37e+08 -11 58 3 0 0>
+	<"Fmindb" #ff00ff 0 3 0 0 0>
+  </Rect>
+  <Tab 1070 770 300 200 3 #c0c0c0 1 00 1 0 1 1 1 0 1 1 1 0 1 1 315 0 225 "" "" "" "">
+	<"S[1,1]" #0000ff 0 3 1 0 0>
+	<"S[2,2]" #0000ff 0 3 1 0 0>
+  </Tab>
+  <Smith 590 1021 381 381 3 #c0c0c0 1 00 1 0 1 1 0 0 5 1.5 1 0 1 1 315 0 225 "" "" "" "">
+	<"S[2,2]" #0000ff 2 3 0 5 0>
+	<"SL" #ff0000 0 3 0 0 0>
+	<"GP" #ff00ff 0 3 0 0 0>
+  </Smith>
+</Diagrams>
+<Paintings>
+</Paintings>

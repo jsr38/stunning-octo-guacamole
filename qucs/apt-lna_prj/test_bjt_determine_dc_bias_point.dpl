@@ -1,0 +1,32 @@
+<Qucs Schematic 0.0.19>
+<Properties>
+  <View=3,-20,788,1006,1,0,0>
+  <Grid=10,10,0>
+  <DataSet=test_bjt_determine_dc_bias_point.dat>
+  <DataDisplay=test_bjt_determine_dc_bias_point.sch>
+  <OpenDisplay=1>
+  <Script=test_bjt_determine_dc_bias_point.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 130 490 611 470 3 #c0c0c0 1 10 1 0 0.001 0.01 1 -5.26973 20 168.27 1 -1 0.2 1 315 0 225 "I_B" "" "" "">
+	<"Beta" #0000ff 0 3 0 0 0>
+	  <Mkr 1.31826e-05 218 -307 3 0 0>
+	  <Mkr 1.51356e-05 384 -476 3 0 0>
+	<"Beta_0" #ff0000 0 3 0 0 0>
+	  <Mkr 5.01187e-06 25 -441 3 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>
