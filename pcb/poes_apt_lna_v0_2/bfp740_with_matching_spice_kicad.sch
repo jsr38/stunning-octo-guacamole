@@ -1,0 +1,505 @@
+EESchema Schematic File Version 2  date Вск 07 Авг 2011 00:36:35
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 43  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "9 aug 2011"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L GND PWR?
+U 1 1 4E44605E
+P 800 5200
+F 0 ""#PWR?" H 800 5200 30  0000 C CNN
+F 1 "GND" H 800 5130 30  0000 C CNN
+	1    800 5200
+	1   0    0    -1   
+$EndComp
+$Comp
+L C C1
+U 1 1 4E44605E
+P 1500 3000
+F 0 "C1" V 1550 3100 50  0000 C CNN
+F 1 "100 nF" V 1550 2900 50  0000 C CNN
+	1    1500 3000
+	0    -1    1    0   
+$EndComp
+$Comp
+L INDUCTOR L1
+U 1 1 4E44605E
+P 2600 3000
+F 0 "L1" V 2550 3000 40  0000 C CNN
+F 1 "62.5 nH" V 2700 3000 40  0000 C CNN
+	1    2600 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L C C3
+U 1 1 4E44605E
+P 4000 3300
+F 0 "C3" V 4050 3400 50  0000 C CNN
+F 1 "12 pF" V 4050 3200 50  0000 C CNN
+	1    4000 3300
+	1    0    0    1   
+$EndComp
+$Comp
+L GND PWR?
+U 1 1 4E44605E
+P 4000 5200
+F 0 ""#PWR?" H 4000 5200 30  0000 C CNN
+F 1 "GND" H 4000 5130 30  0000 C CNN
+	1    4000 5200
+	1   0    0    -1   
+$EndComp
+$Comp
+L GND PWR?
+U 1 1 4E44605E
+P 4700 6400
+F 0 ""#PWR?" H 4700 6400 30  0000 C CNN
+F 1 "GND" H 4700 6330 30  0000 C CNN
+	1    4700 6400
+	1   0    0    -1   
+$EndComp
+$Comp
+L R R1
+U 1 1 4E44605E
+P 3500 3000
+F 0 "R1" V 3580 3000 50  0000 C CNN
+F 1 "0.5 Ohm" V 3500 3000 50  0000 C CNN
+	1    3500 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L R R2
+U 1 1 4E44605E
+P 4000 4200
+F 0 "R2" V 4080 4200 50  0000 C CNN
+F 1 "0.5 Ohm" V 4000 4200 50  0000 C CNN
+	1    4000 4200
+	1    0    0    -1   
+$EndComp
+$Comp
+L C C6
+U 1 1 4E44605E
+P 5800 6000
+F 0 "C6" V 5850 6100 50  0000 C CNN
+F 1 "100 nF" V 5850 5900 50  0000 C CNN
+	1    5800 6000
+	1    0    0    1   
+$EndComp
+$Comp
+L INDUCTOR L5
+U 1 1 4E44605E
+P 3500 2000
+F 0 "L5" V 3450 2000 40  0000 C CNN
+F 1 "1 mH" V 3600 2000 40  0000 C CNN
+	1    3500 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L R R9
+U 1 1 4E44605E
+P 2400 900
+F 0 "R9" V 2480 900 50  0000 C CNN
+F 1 "2782 Ohm" V 2400 900 50  0000 C CNN
+	1    2400 900
+	1    0    0    -1   
+$EndComp
+$Comp
+L R R8
+U 1 1 4E44605E
+P 2400 1900
+F 0 "R8" V 2480 1900 50  0000 C CNN
+F 1 "3160 Ohm" V 2400 1900 50  0000 C CNN
+	1    2400 1900
+	1    0    0    -1   
+$EndComp
+$Comp
+L GND PWR?
+U 1 1 4E44605E
+P 2400 2400
+F 0 ""#PWR?" H 2400 2400 30  0000 C CNN
+F 1 "GND" H 2400 2330 30  0000 C CNN
+	1    2400 2400
+	1   0    0    -1   
+$EndComp
+$Comp
+L GND PWR?
+U 1 1 4E44605E
+P 1400 1400
+F 0 ""#PWR?" H 1400 1400 30  0000 C CNN
+F 1 "GND" H 1400 1330 30  0000 C CNN
+	1    1400 1400
+	0    1   1   0   
+$EndComp
+$Comp
+L C C9
+U 1 1 4E44605E
+P 1900 1400
+F 0 "C9" V 1950 1500 50  0000 C CNN
+F 1 "220 nF" V 1950 1300 50  0000 C CNN
+	1    1900 1400
+	0    -1    1    0   
+$EndComp
+$Comp
+L R R6
+U 1 1 4E44605E
+P 4700 1800
+F 0 "R6" V 4780 1800 50  0000 C CNN
+F 1 "15 kOhm" V 4700 1800 50  0000 C CNN
+	1    4700 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L GND PWR?
+U 1 1 4E44605E
+P 10000 5200
+F 0 ""#PWR?" H 10000 5200 30  0000 C CNN
+F 1 "GND" H 10000 5130 30  0000 C CNN
+	1    10000 5200
+	1   0    0    -1   
+$EndComp
+$Comp
+L C C2
+U 1 1 4E44605E
+P 9300 3000
+F 0 "C2" V 9350 3100 50  0000 C CNN
+F 1 "100 nF" V 9350 2900 50  0000 C CNN
+	1    9300 3000
+	0    -1    1    0   
+$EndComp
+$Comp
+L GND PWR?
+U 1 1 4E44605E
+P 7000 4800
+F 0 ""#PWR?" H 7000 4800 30  0000 C CNN
+F 1 "GND" H 7000 4730 30  0000 C CNN
+	1    7000 4800
+	1   0    0    -1   
+$EndComp
+$Comp
+L INDUCTOR L2
+U 1 1 4E44605E
+P 7000 3300
+F 0 "L2" V 6950 3300 40  0000 C CNN
+F 1 "296 nH" V 7100 3300 40  0000 C CNN
+	1    7000 3300
+	1    0    0    -1   
+$EndComp
+$Comp
+L R R3
+U 1 1 4E44605E
+P 7000 4400
+F 0 "R3" V 7080 4400 50  0000 C CNN
+F 1 "3 Ohm" V 7000 4400 50  0000 C CNN
+	1    7000 4400
+	1    0    0    -1   
+$EndComp
+$Comp
+L R R4
+U 1 1 4E44605E
+P 7500 3000
+F 0 "R4" V 7580 3000 50  0000 C CNN
+F 1 "3 Ohm" V 7500 3000 50  0000 C CNN
+	1    7500 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L INDUCTOR L3
+U 1 1 4E44605E
+P 7300 1800
+F 0 "L3" V 7250 1800 40  0000 C CNN
+F 1 "50 nH" V 7400 1800 40  0000 C CNN
+	1    7300 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L GND PWR?
+U 1 1 4E44605E
+P 10200 2000
+F 0 ""#PWR?" H 10200 2000 30  0000 C CNN
+F 1 "GND" H 10200 1930 30  0000 C CNN
+	1    10200 2000
+	1   0    0    -1   
+$EndComp
+$Comp
+L INDUCTOR L4
+U 1 1 4E44605E
+P 7800 1100
+F 0 "L4" V 7750 1100 40  0000 C CNN
+F 1 "1 mH" V 7900 1100 40  0000 C CNN
+	1    7800 1100
+	1    0    0    -1   
+$EndComp
+$Comp
+L GND PWR?
+U 1 1 4E44605E
+P 8800 800
+F 0 ""#PWR?" H 8800 800 30  0000 C CNN
+F 1 "GND" H 8800 730 30  0000 C CNN
+	1    8800 800
+	1   0    0    -1   
+$EndComp
+$Comp
+L R R7
+U 1 1 4E44605E
+P 8300 1800
+F 0 "R7" V 8380 1800 50  0000 C CNN
+F 1 "50 Ohm" V 8300 1800 50  0000 C CNN
+	1    8300 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L C C8
+U 1 1 4E44605E
+P 9500 1800
+F 0 "C8" V 9550 1900 50  0000 C CNN
+F 1 "1.5 pF" V 9550 1700 50  0000 C CNN
+	1    9500 1800
+	0    -1    1    0   
+$EndComp
+$Comp
+L GND PWR?
+U 1 1 4E44605E
+P 8800 4800
+F 0 ""#PWR?" H 8800 4800 30  0000 C CNN
+F 1 "GND" H 8800 4730 30  0000 C CNN
+	1    8800 4800
+	1   0    0    -1   
+$EndComp
+$Comp
+L INDUCTOR L6
+U 1 1 4E44605E
+P 8800 3300
+F 0 "L6" V 8750 3300 40  0000 C CNN
+F 1 "510 nH" V 8900 3300 40  0000 C CNN
+	1    8800 3300
+	1    0    0    -1   
+$EndComp
+$Comp
+L R R10
+U 1 1 4E44605E
+P 8800 4400
+F 0 "R10" V 8880 4400 50  0000 C CNN
+F 1 "3 Ohm" V 8800 4400 50  0000 C CNN
+	1    8800 4400
+	1    0    0    -1   
+$EndComp
+$Comp
+L C C7
+U 1 1 4E44605E
+P 8300 3000
+F 0 "C7" V 8350 3100 50  0000 C CNN
+F 1 "2.53 pF" V 8350 2900 50  0000 C CNN
+	1    8300 3000
+	0    -1    1    0   
+$EndComp
+$Comp
+L GND PWR?
+U 1 1 4E44605E
+P 5300 4200
+F 0 ""#PWR?" H 5300 4200 30  0000 C CNN
+F 1 "GND" H 5300 4130 30  0000 C CNN
+	1    5300 4200
+	1   0    0    -1   
+$EndComp
+$Comp
+L GND PWR?
+U 1 1 4E44605E
+P 6400 6400
+F 0 ""#PWR?" H 6400 6400 30  0000 C CNN
+F 1 "GND" H 6400 6330 30  0000 C CNN
+	1    6400 6400
+	1   0    0    -1   
+$EndComp
+$Comp
+L R R12
+U 1 1 4E44605E
+P 6400 4300
+F 0 "R12" V 6480 4300 50  0000 C CNN
+F 1 "167 Ohm" V 6400 4300 50  0000 C CNN
+	1    6400 4300
+	1    0    0    -1   
+$EndComp
+$Comp
+L GND PWR?
+U 1 1 4E44605E
+P 3800 1200
+F 0 ""#PWR?" H 3800 1200 30  0000 C CNN
+F 1 "GND" H 3800 1130 30  0000 C CNN
+	1    3800 1200
+	1   0    0    -1   
+$EndComp
+$Comp
+L R R11
+U 1 1 4E44605E
+P 4700 4600
+F 0 "R11" V 4780 4600 50  0000 C CNN
+F 1 "10 Ohm" V 4700 4600 50  0000 C CNN
+	1    4700 4600
+	1    0    0    -1   
+$EndComp
+$Comp
+L R R5
+U 1 1 4E44605E
+P 4700 5700
+F 0 "R5" V 4780 5700 50  0000 C CNN
+F 1 "333 Ohm" V 4700 5700 50  0000 C CNN
+	1    4700 5700
+	1    0    0    -1   
+$EndComp
+Wire Wire Line
+	1700 3000 2300 3000
+Wire Wire Line
+	1300 3000 800 3000
+Wire Wire Line
+	4000 3500 4000 3950
+Wire Wire Line
+	4000 3100 4000 3000
+Wire Wire Line
+	3750 3000 5000 3000
+Wire Wire Line
+	3250 3000 2900 3000
+Wire Wire Line
+	4000 4450 4000 5200
+Wire Wire Line
+	5800 6200 5800 6300
+Wire Wire Line
+	5800 5800 5800 5400
+Wire Wire Line
+	2400 1150 2400 1650
+Wire Wire Line
+	2400 650 2400 400
+Wire Wire Line
+	2400 2150 2400 2400
+Wire Wire Line
+	2100 1400 3200 1400
+Wire Wire Line
+	1700 1400 1400 1400
+Wire Wire Line
+	4950 1800 6600 1800
+Wire Wire Line
+	4450 1800 4100 1800
+Wire Wire Line
+	9500 3000 10000 3000
+Wire Wire Line
+	9100 3000 8500 3000
+Wire Wire Line
+	7000 4650 7000 4800
+Wire Wire Line
+	7000 4150 7000 3600
+Wire Wire Line
+	7750 3000 8100 3000
+Wire Wire Line
+	7250 3000 5600 3000
+Wire Wire Line
+	8550 1800 9300 1800
+Wire Wire Line
+	8050 1800 7600 1800
+Wire Wire Line
+	9700 1800 10200 1800
+Wire Wire Line
+	8800 4650 8800 4800
+Wire Wire Line
+	8800 4150 8800 3600
+Wire Wire Line
+	6400 4550 6400 5200
+Wire Wire Line
+	6400 4050 6400 3800
+Wire Wire Line
+	4700 4850 4700 5450
+Wire Wire Line
+	4700 4350 4700 3600
+Wire Wire Line
+	4700 5950 4700 6400
+Wire Wire Line
+	800 3800 800 5200
+Wire Wire Line
+	800 3000 800 3200
+Wire Wire Line
+	4700 5400 5800 5400
+Wire Wire Line
+	4700 6300 5800 6300
+Wire Wire Line
+	4100 1800 4100 3000
+Wire Wire Line
+	3200 1400 3200 2000
+Wire Wire Line
+	3800 2000 4100 2000
+Wire Wire Line
+	10000 3800 10000 5200
+Wire Wire Line
+	10000 3000 10000 3200
+Wire Wire Line
+	6600 1800 6600 3000
+Wire Wire Line
+	7000 1800 7000 3000
+Wire Wire Line
+	10200 1800 10200 2000
+Wire Wire Line
+	7800 800 8800 800
+Wire Wire Line
+	7800 1400 7800 1800
+Wire Wire Line
+	5300 3900 5300 4200
+Wire Wire Line
+	4700 3600 5000 3600
+Wire Wire Line
+	4700 4000 5600 4000
+Wire Wire Line
+	5600 3600 5600 4000
+Wire Wire Line
+	6400 5800 6400 6400
+Wire Wire Line
+	6400 3800 7000 3800
+Wire Wire Line
+	2400 400 3800 400
+Wire Wire Line
+	3800 1000 3800 1200
+Connection ~ 4700 5400
+Connection ~ 4700 6300
+Connection ~ 4000 3000
+Connection ~ 2400 1400
+Connection ~ 4100 2000
+Connection ~ 7000 3000
+Connection ~ 6600 3000
+Connection ~ 7800 1800
+Connection ~ 4700 4000
+$EndSCHEMATC
