@@ -1,0 +1,40 @@
+<Qucs Schematic 0.0.19>
+<Properties>
+  <View=-53,0,1071,800,1,0,0>
+  <Grid=10,10,0>
+  <DataSet=single_bjt_lna_simple_bias.dat>
+  <DataDisplay=single_bjt_lna_simple_bias.sch>
+  <OpenDisplay=1>
+  <Script=single_bjt_lna_simple_bias.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 70 344 423 304 3 #c0c0c0 1 00 0 5e-07 1e-05 6e-07 1 -0.0001 5e-05 0.000105427 1 -1 0.5 1 315 0 225 "" "" "" "">
+	<"v_o.Vt" #0000ff 0 3 0 0 0>
+	<"Vi.Vt" #ff0000 0 3 0 0 0>
+  </Rect>
+  <Tab 520 278 495 238 3 #c0c0c0 1 00 1 0 1 1 1 0 1 1 1 0 1 1 315 0 225 "" "" "" "">
+	<"Pr2.I" #0000ff 0 3 1 0 0>
+	<"Vbb.V" #0000ff 0 3 1 0 0>
+	<"VE.V" #0000ff 0 3 1 0 0>
+	<"VC.V" #0000ff 0 3 1 0 0>
+	<"Pr3.I" #0000ff 0 3 1 0 0>
+	<"Pr4.I" #0000ff 0 3 1 0 0>
+  </Tab>
+  <Smith 80 610 200 200 3 #c0c0c0 1 00 1 0 1 1 1 0 4 1 1 0 1 1 315 0 225 "" "" "" "">
+	<"S[1,1]" #0000ff 0 3 0 0 0>
+  </Smith>
+</Diagrams>
+<Paintings>
+</Paintings>

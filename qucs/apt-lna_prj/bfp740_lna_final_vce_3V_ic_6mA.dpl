@@ -1,0 +1,48 @@
+<Qucs Schematic 0.0.19>
+<Properties>
+  <View=-16,20,1350,1252,0.659091,0,0>
+  <Grid=10,10,0>
+  <DataSet=bfp740_lna_final_vce_3V_ic_6mA.dat>
+  <DataDisplay=bfp740_lna_final_vce_3V_ic_6mA.sch>
+  <OpenDisplay=1>
+  <Script=bfp740_lna_final_vce_3V_ic_6mA.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Smith 80 419 359 359 3 #c0c0c0 1 00 1 0 1 1 1 0 4 1 1 0 1 1 315 0 225 "" "" "" "">
+	<"S[1,1]" #0000ff 0 3 0 0 0>
+	  <Mkr 1.37e+08 264 -336 3 0 0 1>
+	<"S[2,2]" #ff0000 0 3 0 0 0>
+	  <Mkr 1.37e+08 408 -217 3 0 0 1>
+  </Smith>
+  <Smith 850 1092 453 453 3 #c0c0c0 1 00 1 0 1 1 0 0 4 1 1 0 1 1 315 0 225 "" "" "" "">
+	<"Gp" #0000ff 0 3 0 0 0>
+	<"SL" #ff0000 0 3 0 0 0>
+	<"S[2,2]" #ff00ff 0 3 0 4 0>
+  </Smith>
+  <Smith 170 1095 473 473 3 #c0c0c0 1 00 1 0 1 1 0 0 4 1 1 0 1 1 315 0 225 "" "" "" "">
+	<"Ga" #0000ff 0 3 0 0 0>
+	  <Mkr 205.714/1490/1.37e+08 391 -17 3 0 0 1>
+	<"NF" #ff0000 0 3 0 0 0>
+	  <Mkr 217.143/1.3/1.37e+08 304 -600 3 0 0 1>
+	<"SG" #ff00ff 0 3 0 0 0>
+	<"S[1,1]" #00ff00 0 3 0 4 0>
+  </Smith>
+  <Rect 750 436 553 336 3 #c0c0c0 1 00 1 0 0.2 1 1 -0.1 0.5 1.1 1 -0.1 0.5 1.1 315 0 225 "" "" "" "">
+	<"dbS12" #0000ff 0 3 0 0 0>
+	<"dbS21" #ff0000 0 3 0 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>

@@ -1,0 +1,32 @@
+<Qucs Schematic 0.0.19>
+<Properties>
+  <View=0,0,856,884,0.84375,0,5>
+  <Grid=10,10,0>
+  <DataSet=test_bjt_transit_frequency.dat>
+  <DataDisplay=test_bjt_transit_frequency.sch>
+  <OpenDisplay=1>
+  <Script=test_bjt_transit_frequency.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 140 425 539 395 3 #c0c0c0 1 10 1 0 2e+09 1e+10 1 -13.7247 100 169.051 1 -1 1 1 315 0 225 "" "" "" "">
+	<"beta" #0000ff 0 3 0 0 0>
+	  <Mkr 5.42595e+08/5e-06 140 -114 3 0 0>
+	  <Mkr 1.44099e+08/5e-06 32 -253 3 0 0>
+	  <Mkr 1.44099e+08/1.32e-05 362 -366 3 0 0>
+	  <Mkr 9.78122e+08/1.32e-05 417 -210 3 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>

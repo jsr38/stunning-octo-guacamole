@@ -1,0 +1,50 @@
+<Qucs Schematic 0.0.19>
+<Properties>
+  <View=-62,40,1094,1350,0.980969,0,3>
+  <Grid=10,10,0>
+  <DataSet=bfp740_lna_stability_vce_3V_ic_6mA_no_bias_network.dat>
+  <DataDisplay=bfp740_lna_stability_vce_3V_ic_6mA_no_bias_network.sch>
+  <OpenDisplay=1>
+  <Script=bfp740_lna_stability_vce_3V_ic_6mA_no_bias_network.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Smith 80 547 487 487 3 #c0c0c0 1 00 1 0 1 1 0 0 5 1 1 0 1 1 315 0 225 "" "" "" "">
+	<"Ga" #0000ff 0 3 0 0 0>
+	  <Mkr 302.857/3276.67/1.37e+08 557 -199 3 0 0 1>
+	  <Mkr 302.857/3276.67/1.37e+08 447 -69 3 0 0 1>
+	<"NF" #ff0000 0 3 0 0 0>
+	<"S[1,1]" #ff00ff 0 3 0 4 0>
+	<"SG" #00ff00 0 3 0 0 0>
+  </Smith>
+  <Tab 600 255 454 185 3 #c0c0c0 1 00 1 0 1 1 1 0 1 1 1 0 1 1 315 0 225 "" "" "" "">
+	<"Fmin" #0000ff 0 3 1 0 0>
+	<"FmindB" #0000ff 0 3 1 0 0>
+	<"S[1,1]" #0000ff 0 3 1 0 0>
+	<"S[2,2]" #0000ff 0 3 1 0 0>
+  </Tab>
+  <Smith 740 787 277 277 3 #c0c0c0 1 00 1 0 1 1 0 0 4 1 1 0 1 1 315 0 225 "" "" "" "">
+	<"Gp" #0000ff 0 3 0 0 0>
+	<"SL" #ff0000 0 3 0 0 0>
+	<"S[2,2]" #ff00ff 0 3 0 4 0>
+  </Smith>
+  <Tab -30 725 225 95 3 #c0c0c0 1 00 1 0 1 1 1 0 1 1 1 0 1 1 315 0 225 "" "" "" "">
+	<"GammaS" #0000ff 0 3 1 0 0>
+  </Tab>
+  <Tab -30 864 226 104 3 #c0c0c0 1 00 1 0 1 1 1 0 1 1 1 0 1 1 315 0 225 "" "" "" "">
+	<"GammaLconj" #0000ff 0 3 1 0 0>
+  </Tab>
+</Diagrams>
+<Paintings>
+</Paintings>
